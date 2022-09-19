@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+
+body {
+  margin: 0;
+  background-color: gray;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+li {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+/* ///////////////////////////////////////// */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.movie {
+  width: 200px;
+  color: aliceblue;
+  margin: 1%;
+  border-radius: 20px;
+  padding: 2px;
+  background-color: rgb(95, 91, 91);
+}
+
+.movie:hover {
+  background-color: #333;
+  border: black 4px solid;
+}
+.movie img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.movie a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ////////////////////////////////////////Details Page */
+ul a {
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  margin-top: 16px;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.container img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.container h3 {
+  color: aliceblue;
+  margin: 20px;
+  height: fit-content;
+  letter-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container p {
+  width: 400px;
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
